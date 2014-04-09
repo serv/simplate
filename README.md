@@ -1,6 +1,22 @@
 # Simplate
 
-TODO: Write a gem description
+![](http://i.imgur.com/vJZuDoI.jpg)
+
+Simplate generates a perfect directory structure
+for a well organized Ruby app.
+
+```
+├── Gemfile
+├── lib
+│   ├── models
+│   └── modules
+└── spec
+    ├── models
+    ├── modules
+    └── spec_helper.rb
+```
+
+Simplate uses [RSpec](http://rspec.info/) as the default test suite.
 
 ## Installation
 
@@ -18,7 +34,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Install `simplate` gem.
+2. Open Terminal
+3. Go to the directory where you want to generate the *simplate*
+boilerplate
+4. Run `$ simplate some_app_name`
 
 ## Contributing
 
