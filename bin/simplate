@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'simplate'
+
+if ARGV[0]
+  Simplate::Command.prepare(ARGV[0])
+  puts "#{ARGV[0]} created"
+else
+  puts "Usage:"
+  puts " $ simplate [app_name]"
+end
