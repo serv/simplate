@@ -11,6 +11,4 @@ end
 
 group :debug do
   gem 'debugger'
-  gem 'debugger-linecache'
-  gem 'rblineprof'
 end
