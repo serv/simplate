@@ -6,6 +6,11 @@ gemspec
 gem 'rspec', '~> 2.14.1'
 
 group :test do
-  gem 'debugger'
   gem 'rake'
+end
+
+group :debug do
+  gem 'debugger'
+  gem 'debugger-linecache'
+  gem 'rblineprof'
 end
