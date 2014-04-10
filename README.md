@@ -1,5 +1,7 @@
 # Simplate
 
+[![Code Climate](https://codeclimate.com/github/serv/simplate.png)](https://codeclimate.com/github/serv/simplate)
+
 ![](http://i.imgur.com/vJZuDoI.jpg)
 
 Simplate generates a perfect directory structure
